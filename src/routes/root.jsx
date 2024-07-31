@@ -6,7 +6,7 @@ import {
   useLoaderData,
   useNavigation,
 } from "react-router-dom";
-import { createContact, getContacts } from "../contact";
+import { createContact, getContacts } from "../contacts";
 
 export async function loader() {
   const contacts = await getContacts();
